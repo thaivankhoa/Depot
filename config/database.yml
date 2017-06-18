@@ -36,3 +36,7 @@ default: &default
 development:
   <<: *default
   database: depot_dev
+
+test:
+  <<: *default
+  database: depot_test
